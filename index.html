@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="shortcut icon" href="./assets/trafikskylt.png" type="image/png">
+    <title>Granögårds Samfällighetsförening</title>
+</head>
+<body>
+    <div id="header">
+        <div style="display: flex;">
+            <img onclick="alert('I vårat områder dammar det mindre om du kör saktare!')" src="./assets/trafikskylt.png" alt="trafikskylt" height="25px" style="margin-top: 17px; margin-left: 15px;">
+            <h2 style="margin-left: 0; margin-left: 7.5px;">Granögårds Samfällighetsförening</h2>
+            <div id="icon_links">
+                <a href="https://www.instagram.com/livetpagrano/" target="_blank">
+                    <img class="icon" id="instagram_icon" src="./assets/bilder/icons/instagram_icon.png" alt="instagram">
+                </a>
+                <a href="https://discord.gg/T4FUGvsDQR" target="_blank">
+                    <img class="icon" id="discord_icon" src="./assets/bilder/icons/discord_icon.png" alt="discord">
+                </a>
+                <a href="javascript:alert('Kommer snart')" /*target="_blank"*/>
+                    <img class="icon" id="facebook_icon" src="./assets/bilder/icons/facebook_icon.png" alt="facebook">
+                </a>
+                <a href="javascript:alert('Kommer snart')" /*target="_blank"*/>
+                    <img class="icon" id="twitter_icon" src="./assets/bilder/icons/twitter_icon.png" alt="twitter">
+                </a>
+            </div>
+
+        </div>
+
+        <div id="subfolders">
+            <script>
+                function visa_hem() {
+                    document.getElementById('primary-view').src = './subfolders/start.html'
+                    document.title = 'Hem'
+                }
+
+                function visa_kalender() {
+                    document.getElementById('primary-view').src = './subfolders/kalender.html'
+                    document.title = 'Kalender'
+                }
+
+                function visa_anslagstavla() {
+                    document.getElementById('primary-view').src = './subfolders/anslagstavla.html'
+                    document.title = 'Anslagstavla'
+                }
+
+                function visa_kontaktlista() {
+                    document.getElementById('primary-view').src = './subfolders/kontaktlista.html'
+                    document.title = 'Kontaktlista'
+                }
+
+                function visa_bilder() {
+                    document.getElementById('primary-view').src = './subfolders/bilder.html'
+                    document.title = 'Bilder'
+                }
+
+                function visa_discord() {
+                    document.getElementById('primary-view').src = './subfolders/discord.html'
+                    document.title = 'Discord - Chat'
+                } 
+
+                function visa_bastun() {
+                    document.getElementById('primary-view').src = './subfolders/bastun.html'
+                    document.title = 'Bastun'
+                }
+
+            </script>
+
+            <h3 id="knapp_hem" onclick="visa_hem()">Hem</h3>
+
+            <h3 id="knapp_kalender" onclick="visa_kalender()">Kalender</h3> 
+
+            <h3 id="knapp_anslagstavla" onclick="visa_anslagstavla()">Anslagstavla</h3>
+
+            <h3 id="knapp_kontaktlista" onclick="visa_kontaktlista()">Kontaktlista</h3>
+
+            <h3 id="knapp_bilder" onclick="visa_bilder()">Bilder</h3>
+
+            <h3 id="knapp_discord" onclick="visa_discord()">Discord</h3>
+
+            <h3 id="knapp_bastun" onclick="visa_bastun()">Bastun</h3>
+        </div>
+    </div>
+    <div id="bottom-section">
+        <iframe 
+            id="primary-view" 
+            src="./subfolders/start.html" 
+            frameborder="0" 
+            width="100%"
+            height="100%"
+            style="margin-top: 95px;"
+        ></iframe>
+    </div>
+</body>
+</html>

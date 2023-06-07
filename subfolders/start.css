@@ -1,0 +1,40 @@
+.underline {
+    text-decoration: underline;
+}
+
+.info_lank a {
+    color: #4183C4;
+    text-decoration: underline;
+}
+
+.info_lank:visited {
+    color: #4e41c4;
+    text-decoration: underline;
+}
+
+#title {
+    margin: 15px;
+}
+
+#thirds {
+    display: flex;
+}
+
+#thirds div {
+    width: 33.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#aktuell_info h5 {
+    margin-bottom: 10px;
+}
+
+#allman_info h5 {
+    margin-bottom: 10px;
+}
+
+#allman_info {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}

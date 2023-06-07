@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'SF-Pro-Display-Semibold';
+    src: url('./assets/fonts/SF-Pro-Display-Semibold.otf') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html, #everything {
+    width: 100%;
+    height: 100%;
+
+    display: flow-root;
+    position: relative;
+
+    font-family: 'SF-Pro-Display-Semibold', Fallback, sans-serif;
+}
+
+#bottom-section {
+    height: 85%;
+}
+
+.primary-view {
+    width: 100%;
+    height: 100%;
+    margin-top: 95px;
+}
+
+#header {
+    position: fixed;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+}
+
+#header h2 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#subfolders {
+    display: flex;
+}
+
+#subfolders h3 {
+    margin: 15px;
+}
+
+#subfolders h3:hover {
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+#icon_links a {
+    text-decoration: none;
+}
+
+.icon {
+    height: 25px;
+    margin-top: 17px;
+    margin-left: 9px;
+}

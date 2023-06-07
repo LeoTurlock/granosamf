@@ -1,0 +1,48 @@
+body, html {
+    display: flow-root;
+}
+
+.bild_lank {
+    color: #4183C4;
+    text-decoration: underline;
+}
+
+.bild_lank:visited {
+    color: #4e41c4;
+    text-decoration: underline;
+}
+
+#title {
+    margin: 15px;
+}
+
+#arstider {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 750px;
+}
+
+#lankar_bilder {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#arsfest {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#arsfest a {
+    margin-right: 15px;
+}
+
+#stadning2017 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#stadning2017 a {
+    margin-right: 15px;
+}

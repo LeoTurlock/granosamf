@@ -1,0 +1,23 @@
+.underline {
+    text-decoration: underline;
+}
+
+.dotted {
+    text-decoration: dotted;
+}
+
+.dashed {
+    text-decoration: dashed;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+.italic {
+    font-family: 'SF-Pro-Display-Regular-Italic';
+}
+
+#info {
+    margin-left: 15px;
+}

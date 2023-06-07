@@ -1,0 +1,16 @@
+#container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+table, th, td {
+    text-align: left;
+    padding: 2.5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-family: 'SF-Pro-Display-Semibold';
+    font-size: 18px;
+}
