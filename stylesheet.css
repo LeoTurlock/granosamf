@@ -39,15 +39,16 @@ body, html, #everything {
     margin-left: 15px;
 }
 
-#subfolders {
+#nav-bar {
     display: flex;
 }
 
-#subfolders h3 {
+#nav-bar h3 {
     margin: 15px;
+    display: flex;
 }
 
-#subfolders h3:hover {
+#nav-bar h3:hover {
     cursor: pointer;
     color: rgb(200, 200, 200);
     border-radius: 5px;
